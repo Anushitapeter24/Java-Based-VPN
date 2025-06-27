@@ -1,0 +1,22 @@
+# Ignore keystores (sensitive keys)
+keystore/*.jks
+keystore/*.cer
+
+# Node modules
+vpn-ui/frontend/node_modules/
+vpn-ui/backend/node_modules/
+
+# Build files
+vpn-ui/frontend/build/
+vpn-ui/frontend/dist/
+
+# Logs
+*.log
+
+# Environment files
+vpn-ui/backend/.env
+vpn-ui/frontend/.env
+
+# OS/System files
+.DS_Store
+Thumbs.db
